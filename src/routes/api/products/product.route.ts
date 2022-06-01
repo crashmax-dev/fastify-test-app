@@ -15,7 +15,7 @@ async function productRoutes(server: FastifyInstance) {
       }
     },
     createProductHandler
-  );
+  )
 
   server.get(
     '/',
